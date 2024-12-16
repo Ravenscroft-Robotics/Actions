@@ -2,7 +2,7 @@ package com.technotigers.actions;
 
 public class SleepAction implements Action {
     private double beginTs = -1;
-    private double dt;
+    private final double dt;
 
     public SleepAction(double dt) {
         this.dt = dt;

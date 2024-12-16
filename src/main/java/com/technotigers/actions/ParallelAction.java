@@ -1,8 +1,8 @@
 package com.technotigers.actions;
 
 public class ParallelAction implements Action{
-    private Action[] actions;
-    private boolean[] bools;
+    private final Action[] actions;
+    private final boolean[] bools;
 
     public ParallelAction(Action... actions) {
         this.actions = actions;

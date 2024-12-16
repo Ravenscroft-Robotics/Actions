@@ -1,7 +1,7 @@
 package com.technotigers.actions;
 
 public class SequentialAction implements Action {
-    private Action[] actions;
+    private final Action[] actions;
     private int index = 0;
 
     public SequentialAction(Action... actions) {
